@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="parame">
+    <test name="parameters">
+        <classes>
+            <parameter name="name" value="zhangsan"/>
+            <parameter name="age"  value="10"/>
+            <class name="com.testng.parameter.parameter"/>
+
+        </classes>
+    </test>
+
+</suite>

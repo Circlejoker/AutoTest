@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="suibianqude">
+    <test name="Run all">
+        <groups>
+            <run>
+                <include name="teacher"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.testng.groups.GroupsOnClass1"/>
+            <class name="com.testng.groups.GroupsOnClass2"/>
+            <class name="com.testng.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+</suite>
